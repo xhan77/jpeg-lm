@@ -82,7 +82,7 @@ def main():
     parser.add_argument("--model_name_or_path", type=str, default="uwnlp/jpeg-lm-reimplementation", help="")
     parser.add_argument("--prefix_ratio", type=float, default=0.5, help="")
     parser.add_argument("--temp", type=float, default=1.0, help="")
-    parser.add_argument("--topp", type=float, default=0.9, help="")
+    parser.add_argument("--topp", type=float, default=1.0, help="")
     parser.add_argument("--topk", type=int, default=50, help="")
     parser.add_argument("--query_vllm_server", type=str, default=None, help="")
     parser.add_argument("--test_image_path", type=str, default=None, help="")
